@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Databox is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by founder-collective) and added to the network as a stub for full-pipeline profiling.
-- https://databox.com/
+Databox provides an agentic analytics platform designed for agencies and teams to harness live data with AI-driven insights. The platform offers AI Analyst for natural language queries, automation of recurring analyses, a semantic layer for unified metric definitions, and robust data governance. With integrations to over 130 tools, spreadsheets, databases, and APIs, Databox enables trusted AI analysis, customizable dashboards, and collaborative reporting, empowering businesses to make data‑driven decisions at scale.
+
+**Areas:** Company · Analytics · AI · Data Integration · Business Intelligence
+
+## Databox on APIs.io
+
+Everything profiled for Databox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/databox/](https://apis.io/providers/databox/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Databox API](https://apis.io/apis/databox/databox-api/) — Databox API as documented publicly: 103 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV2DataSourcesResponse](https://apis.io/schemas/databox/databox-get-v2-data-sources-response/)
+- [PostV1DataSourcesRequest](https://apis.io/schemas/databox/databox-post-v1-data-sources-request/)
+- [PostV1DatasetsRequest](https://apis.io/schemas/databox/databox-post-v1-datasets-request/)
+- [PostV1DatasetsResponse](https://apis.io/schemas/databox/databox-post-v1-datasets-response/)
+- [PostV2DatasetsRequest](https://apis.io/schemas/databox/databox-post-v2-datasets-request/)
+- [PostV2DatasetsResponse](https://apis.io/schemas/databox/databox-post-v2-datasets-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Databox Context](https://apis.io/jsonld/databox/databox-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Databox API Rules](https://apis.io/rules/databox/databox-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Databox Authentication](https://apis.io/security/databox/databox-authentication/)
+- [Databox Domain Security](https://apis.io/security/databox/databox-domain-security/)
+- [Databox Trust Center](https://apis.io/security/databox/databox-trust-center/)
+- [Databox Vulnerability Disclosure](https://apis.io/security/databox/databox-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Databox Plans Pricing](https://apis.io/plans/databox/databox-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Databox Rate Limits](https://apis.io/rate-limits/databox/databox-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://databox.com/)
+- [Documentation](https://developers.databox.com/docs/introduction)
+- [Getting started](https://developers.databox.com/docs/introduction)
+- [Pricing](https://databox.com/pricing)
+- [Sign up](https://databox.com/signup)
+- [Support](https://help.databox.com)
+- [Changelog](https://developers.databox.com/docs/api/changelog)
+- [Blog](https://databox.com/blog)
+- [Compliance](https://trust.databox.com/)
+- [Terms of service](https://databox.com/terms-of-service)
+- [Privacy policy](https://databox.com/privacy-policy)
+- [GitHub](https://github.com/databox)
+- [Status](https://status.databox.com)
+
+## API Evangelist rating
+
+**Kin Score 65.4** — strong · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 35.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 66.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 88.9 |
+
+**Agent readiness 34.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/databox/](https://apis.io/providers/databox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Databox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/databox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
